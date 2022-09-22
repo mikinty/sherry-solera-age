@@ -1,13 +1,13 @@
-# parallel-non-comparison-sort
+# Average Age of Sherry in the Solera System
 
-We introduce a non-comparison based sort that runs in linear time, with fixed number bit size, and logic gates of linear size.
-We show that this sort can be implemented with very simple hardware components, which makes it a good candidate for a sorting algorithm on ASICs or FPGAs.
+The Solera system is an orderly way to blend sherry wines.
+There is a lack of formal studies on the actual age of sherry wines.
+Assuming we take the average of all liquids that constitute a sherry wine, we can derive the actual age of sherry wines.
+We show that for $k < 11$ there is an asymptotic limit to the age of the sherry wine, but with $k > 11$, the age becomes unbounded.
+This raises questions of whether Sherry producers are accurately reporting the age of their wines.
 
 ## Full Paper
 
 [Find it here](build/main.pdf).
 
 ## TODO
-
-- Draw diagrams in paper
-- Create a code implementation to describe how the sorting works
